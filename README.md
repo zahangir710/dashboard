@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Simple Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Using React, npx create-react-app, CSS
+    -Only Homepage
+    -No CSS framework used
+    -No router used
+    -No context API
+    -No Reducer for state management (Redux or useReducer hook)
+    -Mock API using summary.json file
+    -One Libraby is used, "Rechart", a charting library build on React components
+        -url: https://recharts.org/en-US/
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+-Basic UI Layout, without any functionality.
 
-### `npm start`
+-Among all the pages, only Home page is developed.
+    -Home page may have some more graphs and charts like Barchat and Pie chart to make more interesting and complex layout.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-Sticky Badboard Topbar with notification, settings, and user avator
+    - Notification can be pushed after any changes made to the dashboard and latest few notifications will be shown in the recent       updates component.
+    - settings can be used to change dashboard themes, colors, and layouts
+    -user avator shows the current logged in user, and user account details
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-Sticky Sidebar component, holds the main pages. Each of the navigation menu takes to a different page.
+    -Manage page has the functionalty to manipulate the data table and graphs (Edit, Delate, Report)
+    -Graph page contains all the different kinds of graphs using the test data, visual representaion of diffient statistics
+    -Any feedback by any user will reach to other user when they login to the site.
+    -Report page for managing the reported issues and mark as resolved, unresolved or backlog
+    -Analytics page shows analytics of reported issues, managing test data, and feedback
+    -Logout Menu to log user out
 
-### `npm test`
+### Responsive
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Mobile, Tablet and Laptop/Desktop responsive
 
-### `npm run build`
+### How to run the project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In terminal, run the commands
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. npm install 
+2. npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
