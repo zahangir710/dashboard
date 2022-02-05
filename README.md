@@ -16,6 +16,8 @@ Using React, npx create-react-app, CSS
 
 -Among all the pages, only Home page is developed.
     -Home page may have some more graphs and charts like Barchat and Pie chart to make more interesting and complex layout.
+    
+- The chart and Doughnut chart components shows a line chart and doughnut chart respectively using the summary data.
 
 -Sticky Badboard Topbar with notification, settings, and user avator
     - Notification can be pushed after any changes made to the dashboard and latest few notifications will be shown in the recent       updates component.

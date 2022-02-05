@@ -1,10 +1,10 @@
 import React from "react";
-import "./DonutChartCom.css";
+import "./DoughnutChartCom.css";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-export default function DonutChartCom({ summary }) {
+export default function DoughnutChartCom({ summary }) {
   let result = summary.map((data) => data.num_taps);
   let labels = summary.map((data) => data.device);
   console.log(result);

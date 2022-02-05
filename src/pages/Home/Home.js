@@ -4,7 +4,7 @@ import "./Home.css";
 import { recentData } from "../../assets/recentData";
 import Chart from "../../components/Chart/Chart";
 import DataTable from "../../components/DataTable/DataTable";
-import DonutChartCom from "../../components/DonutChartCom/DonutChartCom";
+import DoughnutChartCom from "../../components/DoughnutChartCom/DoughnutChartCom";
 
 export default function Home() {
   const [summary, setSummary] = useState([]);
@@ -33,7 +33,7 @@ export default function Home() {
       </section>
       <section className="chart-container">
         <div className="donat-chart-div">
-          <DonutChartCom summary={summary} />
+          <DoughnutChartCom summary={summary} />
         </div>
         <div className="chart-div">
           <Chart summary={summary} />
