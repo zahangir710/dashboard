@@ -1,13 +1,13 @@
 # Simple Dashboard
 
-Using React, npx create-react-app, CSS
-    -Only Homepage
-    -No CSS framework used
-    -No router used
-    -No context API
-    -No Reducer for state management (Redux or useReducer hook)
-    -Mock API using summary.json file
-    -Two charting Libraries are used, "Rechart", a charting library build on React components and chart.js/react-chartjs-2
+- Using React, npx create-react-app, CSS
+    - Only Homepage
+    - No CSS framework used
+    - No router used
+    - No context API
+    - No Reducer for state management (Redux or useReducer hook)
+    - Mock API using summary.json file
+    - Two charting Libraries are used, "Rechart", a charting library build on React components and chart.js/react-chartjs-2
         - url: https://recharts.org/en-US/
         - url: https://github.com/reactchartjs/react-chartjs-2
 
