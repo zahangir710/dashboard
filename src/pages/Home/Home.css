@@ -1,0 +1,49 @@
+.home{
+    flex: 5;
+    padding: 40px 20px;
+    background-color: #EFF1F4;
+}
+.recent-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 20px 0px;
+}
+.home-title{
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin-top: -20px;
+    font-size: 1rem;
+    color: rgb(63, 63, 63);
+}
+.chart-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.donat-chart-div{
+    flex: 1;
+}
+ .chart-div{
+     flex: 3;
+ }
+@media  screen and (max-width:640px) {
+    .recent-container{
+        flex-direction: column;
+    }
+}
+@media  screen and (max-width:991px) {
+    .chart-container{
+        flex-direction: column;
+    }
+    .donat-chart-div, .chart-div{
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+        padding: 20px 0;
+    }
+    .donat-chart-div{
+        width: 90%;
+    }
+}

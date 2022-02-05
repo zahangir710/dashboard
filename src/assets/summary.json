@@ -1,0 +1,83 @@
+[
+  {
+    "id": 0,
+    "device": "Xiaomi Poco F1",
+    "duration": 39.687,
+    "num_scrolls": 0,
+    "num_taps": 4,
+    "num_fixations": 5,
+    "mean_fixation_duration": 0.4393352415999999
+  },
+  {
+    "id": 1,
+    "device": "Samsung S8",
+    "duration": 13.882,
+    "num_scrolls": 0,
+    "num_taps": 5,
+    "num_fixations": 5,
+    "mean_fixation_duration": 0.4000588611999999
+  },
+  {
+    "id": 2,
+    "device": "Xiaomi Poco F1",
+    "duration": 7.23,
+    "num_scrolls": 1,
+    "num_taps": 4,
+    "num_fixations": 2,
+    "mean_fixation_duration": 0.3317780534999999
+  },
+  {
+    "id": 3,
+    "device": "Samsung S8",
+    "duration": 20.876,
+    "num_scrolls": 2,
+    "num_taps": 7,
+    "num_fixations": 8,
+    "mean_fixation_duration": 0.40774944674999997
+  },
+  {
+    "id": 4,
+    "device": "Samsung S8",
+    "duration": 10.373,
+    "num_scrolls": 1,
+    "num_taps": 4,
+    "num_fixations": 4,
+    "mean_fixation_duration": 0.48277475925000013
+  },
+  {
+    "id": 5,
+    "device": "Samsung S8",
+    "duration": 12.282,
+    "num_scrolls": 3,
+    "num_taps": 7,
+    "num_fixations": 4,
+    "mean_fixation_duration": 0.44945848025
+  },
+  {
+    "id": 6,
+    "device": "Samsung S8",
+    "duration": 13.411,
+    "num_scrolls": 2,
+    "num_taps": 5,
+    "num_fixations": 3,
+    "mean_fixation_duration": 0.28876516633333366
+  },
+  {
+    "id": 7,
+    "device": "Fairphone FP3",
+    "duration": 50.535,
+    "num_scrolls": 32,
+    "num_taps": 11,
+    "num_fixations": 46,
+    "mean_fixation_duration": 0.43040366497826077
+  },
+  {
+    "id": 8,
+    "device": "Fairphone FP3",
+    "duration": 35.734,
+    "num_scrolls": 20,
+    "num_taps": 9,
+    "num_fixations": 33,
+    "mean_fixation_duration": 0.3756498324545454
+  }
+]

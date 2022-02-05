@@ -1,0 +1,94 @@
+.top-dashbar{
+    width: 100%;
+    height: 60px;
+    background-color: #153F6F;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.top-dashbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+}
+.left-bar{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+.toggler-icon{
+    font-size: 2rem;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+}
+h1.logo{
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to top right, #fff, #24adc8)
+}
+.right-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-bar-icons{
+    position: relative;
+    margin-right: 1rem;
+}
+.right-bar-icons:last-child{
+    margin-right: 0;
+}
+/* tooltip */
+.right-bar-icons::after{
+    content: attr(data-tooltip);
+    font-size: 0.8rem;
+    position: absolute;
+    top: 100%;
+    left: -50%;
+    transform: scale(0);
+    color: #fff;
+    background-color: #16abc8;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transform-origin: left center;
+}
+.right-bar-icons:hover::after{
+    transform: scale(1);
+    transition: ease-in-out 0.2s;
+}
+.icon{
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #fff;
+}
+.icon-badge{
+    width: 1.1rem;
+    height: 1.1rem;
+    position: absolute;
+    font-size: 0.8rem;
+    top: -15px;
+    right: -8px;
+    color: #fff;
+    background-color: #E8403A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:991px) {
+    .toggler-icon{
+        display: inline-flex;
+    }
+    .right-bar-icons::after{
+        background-color: transparent;
+        top: 80%;
+    }
+}
